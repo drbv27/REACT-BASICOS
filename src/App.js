@@ -1,28 +1,16 @@
+import React from 'react';
 import logo from './logo.svg';
+import Componente from './components/Componente';
 import './App.css';
 
 function App() {
-  let nombre="Diego";
-  let auth = false;
-  let estaciones = ["Primavera","Verano","Otoño","Invierno"];
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <label htmlFor="nombre">Nombre</label>
-        <input type="text" id="nombre"/>
-        <h1>{nombre}</h1>
-        <p>
-          {auth ? "El usuario está autenticado":"El usuario no es valido"}
-        </p>
-        <p>{2+1}</p>
         <p>
           Editar <code>src/App.js</code> and save to reload.
         </p>
-        <ul>{estaciones.map((el,index) => (
-          <li key={index}>{el}</li>
-        ))}
-        </ul>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -32,6 +20,10 @@ function App() {
           Learn React
         </a>
       </header>
+      <section>
+        <Componente msg = "Hola soy un Componente Funcional Expresado desde una prop"/>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      </section>
     </div>
   );
 }
