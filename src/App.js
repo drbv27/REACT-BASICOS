@@ -31,6 +31,11 @@ function App() {
           booleano={true}
           arreglo = {[1,2,3]}
           objeto = {{nombre:"Diego",correo:"drbv27@gmail.com"}}
+          funcion={num=>num*num}
+          elementoReact={<i>Esto es un elemento React</i>}
+          componenteReact={
+          <Componente msg="Soy un componente pasado como Prop"/>
+          }
           />
         </section>
       </header>
