@@ -4,9 +4,11 @@ import Componente from './components/Componente';
 import Propiedades from './components/Propiedades'
 import Estado from './components/Estado'
 import RenderizadoCondicional from './components/RenderizadoCondicional'
-import RenderizadoElementos from './components/RenderizadoElementos';
 import {EventosES6,EventosES7,MasSobreEventos} from './components/Eventos';
+import RenderizadoElementos from './components/RenderizadoElementos';
+import ComunicacionComponentes from './components/ComunicacionComponenentes';
 import './App.css';
+
 
 function App() {
   return (
@@ -53,6 +55,8 @@ function App() {
           <EventosES7/>
           <hr/>
           <MasSobreEventos/>
+          <hr/>
+          <ComunicacionComponentes/>
         </section>
       </header>
     </div>
