@@ -8,6 +8,7 @@ import {EventosES6,EventosES7,MasSobreEventos} from './components/Eventos';
 import RenderizadoElementos from './components/RenderizadoElementos';
 import ComunicacionComponentes from './components/ComunicacionComponenentes';
 import CicloVida  from './components/CicloVida';
+import AjaxApis from './components/AjaxApis';
 import './App.css';
 
 
@@ -30,6 +31,7 @@ function App() {
           </a>
         </section>
         <section>
+          <AjaxApis />
           <Componente msg = "Hola soy un Componente Funcional Expresado desde una prop"/>
           <hr/>
           <Propiedades
@@ -60,6 +62,7 @@ function App() {
           <ComunicacionComponentes/>
           <hr/>
           <CicloVida />
+          <hr/>
         </section>
       </header>
     </div>
