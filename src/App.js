@@ -9,6 +9,7 @@ import RenderizadoElementos from './components/RenderizadoElementos';
 import ComunicacionComponentes from './components/ComunicacionComponenentes';
 import CicloVida  from './components/CicloVida';
 import AjaxApis from './components/AjaxApis';
+import ContadorHooks from './components/ContadorHooks';
 import './App.css';
 
 
@@ -62,6 +63,8 @@ function App() {
           <ComunicacionComponentes/>
           <hr/>
           <CicloVida />
+          <hr/>
+          <ContadorHooks titulo="Seguidores"/>
           <hr/>
         </section>
       </header>
