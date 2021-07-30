@@ -51,6 +51,6 @@ export default class AjaxApis extends Component {
             ))
         )}
             </>
-        )
+        );
     }
 }
