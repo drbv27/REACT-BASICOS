@@ -6,7 +6,7 @@ class Reloj extends Component {
     }
 
     componentWillUnmount(){
-        console.log(3,"El componente ha sido eliminado del DOM");
+        //console.log(3,"El componente ha sido eliminado del DOM");
     }
 
     render(){
@@ -17,7 +17,7 @@ class Reloj extends Component {
 export default class CicloVida  extends Component{
     constructor(props){
         super(props);
-        console.log(0,"El Componente se Inicializa,aún NO está en el DOM");
+        //console.log(0,"El Componente se Inicializa,aún NO está en el DOM");
 
         this.state={
             hora: new Date().toLocaleTimeString(),
@@ -28,15 +28,15 @@ export default class CicloVida  extends Component{
     }
 
     componentDidMount(){
-        console.log(1,"El componente ya se encuentra en el DOM");
+        //console.log(1,"El componente ya se encuentra en el DOM");
     }
 
     
     // eslint-disable-next-line react/no-typos
     ComponentDidUpdate(prevProps,prevState){
-        console.log(2,"El estado o las props del componente han cambiado");
-        console.log(prevProps);
-        console.log(prevState);
+        //console.log(2,"El estado o las props del componente han cambiado");
+        //console.log(prevProps);
+        //console.log(prevState);
     }
 
     tictac=()=>{
@@ -61,7 +61,7 @@ export default class CicloVida  extends Component{
     };
 
     render(){
-        console.log(4,"El componete se dibuja (o redibuja) en el DOM");
+        //console.log(4,"El componete se dibuja (o redibuja) en el DOM");
         return(
             <>
             <h2>Ciclo de Vida de los Componentes de Clase</h2>

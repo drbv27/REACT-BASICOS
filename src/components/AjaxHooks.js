@@ -30,7 +30,7 @@ export default function AjaxHooks(){
 
                         setPokemons((pokemons)=>[...pokemons,pokemon]);
                     });
-        }
+        };
         getPokemons("https://pokeapi.co/api/v2/pokemon");
     },[]);
     /* useEffect(() => {
